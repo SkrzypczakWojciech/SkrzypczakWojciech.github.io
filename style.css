@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin-left: 90px;
+	display : grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: lightgrey;
+}
+
+div {
+	width:15vw;
+	height:25vh;
+	background-color:black;
+	border:2px solid white;
+	border-radius: 50%;
+}
+
+
+.red {
+    background-image: url(https://bi.im-g.pl/im/f6/08/17/z24153334V,Robert-Lewandowski-w-Der-Klassiker--Borussia-Dortm.jpg);
+        background-size: cover;
+}
+
+
+.blue {
+         background-size: cover;
+    background-image: url(https://static.fangol.pl/content/3/1/1/31110871fadcdf96ba440bd94168df02-598.jpg);
+}
+
+.yellow {
+         background-size: cover;
+    background-image: url(https://cdn.galleries.smcloud.net/t/galleries/gf-h9vn-h9wy-PVAW_robert-kubica-w-f1-kierowca-williamsa-2019-ile-zarobi-polski-kierowca-664x442-nocrop.jpg);
+}
+
+.green {
+         background-size: cover;
+    background-image: url(https://ocdn.eu/pulscms-transforms/1/cxpktkpTURBXy8wNWY2ZGQwZDQ4NDkyMmFjZDVjODcxNmE1ZjIzYTliZC5qcGeSlQMAcc0OJs0H9ZMFzQMUzQG8);
+}
+
+.brown {
+     background-size: cover;
+    background-image: url(https://v.wpimg.pl/MTczOS5qJD1MTHdjTV4-MhQKYSRFEik6TQojfEYWEicTHyw6VB05MQIJKiFqGWJhVU0pMVRJe2VSGys3Bi51Z1JIfmQGSGM-Ex0=);
+}
+
+.gray {
+     background-size: cover;
+    background-image: url(https://ocdn.eu/pulscms-transforms/1/IZ_ktkqTURBXy9lODkzMTFiNWE1ZGFmMWNjZTFjYTNlMzhkMWJjZGY0YS5qcGVnkpUDAAfNA_vNAj2TBc0DFM0BvA);
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.cadetblue {
+      background-size: cover;
+    background-image: url(https://polski-sport.pl/wp-content/uploads/2016/08/teo-3.jpg);
+}
+
+.violet {
+   background-size: cover;
+    background-image: url(https://nczas.com/wp-content/uploads/2017/10/pudzian_wolnos%C4%8724-696x534.jpg);
+}
+
+.hidden {
+    background-color: black;
+    background-image: url(https://plumbr.io/app/uploads/2015/01/thread-lock.jpeg);
+    background-size: cover;
+    border:5px solid black;
+}
+
+.off {
+    background-color: #eee;
+}
