@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 body {
+	margin-top: 200px;
 	margin-left: 90px;
 	display : grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
