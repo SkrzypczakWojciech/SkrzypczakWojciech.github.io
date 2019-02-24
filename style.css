@@ -4,18 +4,21 @@
 	box-sizing: border-box;
 }
 body {
-	margin-left: 90px;
 	display : flex;
-	flex-direction: wrap;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
 	background-color: lightgrey;
 }
 
 div {
-	width:45vw;
-	height:25vh;
+	height:20vh;
+	width:20vw;
+	margin:0.5em;
+
 	background-color:black;
 	border:2px solid white;
-	border-radius: 50%;
+	border-radius: 5%;
 }
 
 
@@ -68,6 +71,7 @@ div {
     background-color: black;
     background-image: url(https://plumbr.io/app/uploads/2015/01/thread-lock.jpeg);
     background-size: cover;
+    background-position: center;
     border:5px solid black;
 }
 
